@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH SolidWorks",
+    "zh": "DSH SolidWorks"
+  },
+  "description": {
+    "en": "Private updates for the SolidWorks fixture plugin.",
+    "zh": "SolidWorks 工装插件的版本列表。源码仓库是私有的，这里只提供可安装的提交。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-solidworks",
+      "title": {
+        "en": "SolidWorks fixtures",
+        "zh": "SolidWorks 工装"
+      },
+      "description": {
+        "en": "Read an open model, model from a drawing, and compare 2D with 3D.",
+        "zh": "只读理解已打开的数模，按图纸标注建模，并对比二维和三维。"
+      },
+      "icon": "icon.svg",
+      "repository": {
+        "url": "https://github.com/sheng129/DSH_SW",
+        "directory": "dsh-plugin"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795010464,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sheng129/DSH_SW",
+            "commit": "887def6d28ee97a795e28327f6962eafd78369f5",
+            "path": "dsh-plugin"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
