@@ -128,6 +128,19 @@
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0-0"
           }
+        },
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1795224086,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sheng129/DSH_SW",
+            "commit": "5eb20a213963a544b832d4089fcd373851e5fea9",
+            "path": "dsh-plugin"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+          }
         }
       ]
     }
